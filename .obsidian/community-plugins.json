@@ -2,5 +2,6 @@
   "templater-obsidian",
   "calendar",
   "dataview",
-  "quickadd"
+  "quickadd",
+  "obsidian-git"
 ]

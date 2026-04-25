@@ -5,11 +5,21 @@
 - 关闭 Safe mode
 
 ## 2. 安装插件（按顺序）
-1) Obsidian Git  
+1) Git（Obsidian Git / obsidian-git）  
 2) Templater  
 3) Calendar  
 4) Dataview  
 5) QuickAdd  
+
+### 2.1 如果在市场里搜不到 Git（Obsidian Git）
+- 确认：Community plugins 已关闭 Safe mode
+- 在 Browse 里用关键词 `Git` 搜索，不要用 `Obsidian Git`
+- 避免装错：GitHobs 不是用于仓库同步的插件
+
+### 2.2 手动安装 Git（Obsidian Git）
+- 下载 `obsidian-git-<版本号>.zip`（来自 Vinzent03/obsidian-git 的 Releases）
+- 解压到：`E:\obsidian\ObsidianVault\.obsidian\plugins\obsidian-git\`
+- 重启 Obsidian → Settings → Community plugins → 启用 Git
 
 ## 3. Templater
 - Settings → Templater
@@ -53,4 +63,3 @@
 ### 8.2 推荐使用方式
 - 开始编辑前：Pull
 - 结束编辑后：Commit-and-sync
-

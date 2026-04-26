@@ -5,10 +5,66 @@
       "name": "Inbox",
       "type": "Template",
       "command": false,
-      "templatePath": "",
+      "templatePath": "99-Templates/Capture-Inbox.md",
       "fileNameFormat": {
+        "enabled": true,
+        "format": "00-Inbox/{{DATE:YYYY-MM-DD}}-{{TIME:HHmm}}.md"
+      },
+      "folder": {
         "enabled": false,
-        "format": ""
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "7529cce9-1c75-4b86-b774-fbb3dd75a016",
+      "name": "读书笔记",
+      "type": "Template",
+      "command": false,
+      "templatePath": "99-Templates/Reading.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "03-Reading/{{VALUE:书名}}.md"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "27ae6da9-40e2-4aea-98b8-3be209da9212",
+      "name": "代码笔记",
+      "type": "Template",
+      "command": false,
+      "templatePath": "99-Templates/DevNote.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "04-DevNotes/{{VALUE:标题}}.md"
       },
       "folder": {
         "enabled": false,
